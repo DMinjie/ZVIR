@@ -1,1 +1,2 @@
 # ZVIR
+python train.py
