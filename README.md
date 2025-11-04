@@ -16,5 +16,33 @@ https://doi.org/10.1016/j.patcog.2025.112666.
   4.Extensive qualitative and quantitative experiments are conducted on multiple public infrared-visible datasets, validating the effectiveness of the proposed method in both fusion quality and downstream task performance.  
 
 # Framework
-  
-python train.py
+<p align="center">
+  <img src="Introduction/ZVIR_S.png" width="800">
+</p>
+<p align="center">
+  <img src="Introduction/moudule.png" width="800">
+</p>
+
+
+# Deep Image Prior And prior Activation
+<p align="center">
+  <img src="Introduction/dip_ours.png" width="500">  
+</p>
+  In our proposed method, the infrared features are propagated only through the input path. We design a preference-aware loss function to ensure that the infrared prior is implicitly formed by the network architecture itself. We further compare our approach with the traditional DIP framework, where the DIP directly uses loss functions to extract bi-modal features and the network input is pure noise. A comparative analysis between the two is conducted.
+<p align="center">  
+ <img src="Introduction/prior_act.png" width="500">
+</p>
+  The feature map outputs of each layer in the network architecture are visualized, intuitively demonstrating how the network suppresses infrared information. For comparison, the visualizations of prior activation are also presented, showing how both the prior and fused features are expressed within the architecture during the activation process.
+
+# Reproduction
+
+## Parameter Settings
+In our method, there are two primary parameters to be configured: the number of iterations and the parameter α. The former determines the running time of the network, while the latter controls the amount of infrared information preserved within the network. Here, we provide the recommended reference settings based on our experimental results.
+
+ <img src="Introduction/iter.png" width="500"> <img src="Introduction/alpha.png" width="500">
+## Limitations
+Since our method relies on deep prior, both modalities are extracted directly through the network architecture itself. When the infrared and visible image edges are highly similar, or when the visible image is affected by low illumination, the fused result may be less discriminative. In such cases, the value of α needs to be adjusted, similar to manually increasing infrared preference, so that more infrared information can be introduced to enhance the fusion quality.
+
+## Run Code
+python 
+train.py
