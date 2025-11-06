@@ -54,3 +54,14 @@
 
 ## ⚙️ Run Code
 📌 python  train.py
+
+
+## 📌citation
+@article{Zhai_2025, title={ZVIR: Zero-Shot Implicit Deep Image Prior with Prior Activation for Infrared and Visible Image Fusion},  
+ISSN={0031-3203},  
+url={http://dx.doi.org/10.1016/j.patcog.2025.112666},  
+DOI={10.1016/j.patcog.2025.112666},  
+journal={Pattern Recognition},  
+publisher={Elsevier BV},  
+author={Zhai, Hao and Deng, Minjie and Wei, Yan and Wang, Long and Li, Anyu},  
+year={2025},month=nov,pages={112666} }
