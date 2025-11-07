@@ -57,15 +57,15 @@
 
 
 ## 📌citation
-@article{ZHAI2026112666,
-title = {ZVIR: Zero-shot implicit deep image prior with prior activation for infrared and visible image fusion},
-journal = {Pattern Recognition},
-volume = {172},
-pages = {112666},
-year = {2026},
-issn = {0031-3203},
-doi = {https://doi.org/10.1016/j.patcog.2025.112666},
-url = {https://www.sciencedirect.com/science/article/pii/S0031320325013299},
-author = {Hao Zhai and Minjie Deng and Yan Wei and Long Wang and Anyu Li},
-keywords = {Infrared and visible image fusion, Deep image prior, Zero-shot learning, Deep learning},
-}
+@article{ZHAI2026112666,  
+title = {ZVIR: Zero-shot implicit deep image prior with prior activation for infrared and visible image fusion},  
+journal = {Pattern Recognition},  
+volume = {172},  
+pages = {112666},  
+year = {2026},  
+issn = {0031-3203},  
+doi = {https://doi.org/10.1016/j.patcog.2025.112666},  
+url = {https://www.sciencedirect.com/science/article/pii/S0031320325013299},  
+author = {Hao Zhai and Minjie Deng and Yan Wei and Long Wang and Anyu Li},  
+keywords = {Infrared and visible image fusion, Deep image prior, Zero-shot learning, Deep learning},  
+} 
