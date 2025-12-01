@@ -16,7 +16,7 @@
 • To the best of our knowledge, this is the first work to apply deep image prior to the task of infrared and visible image fusion, where the network structure is leveraged to extract deep image prior for achieving zero-shot fusion.  
 • A novel network architecture is proposed, in which feature priors are progressively enhanced through connection modules, allowing the network to establish different priors based on the information contained in the images themselves.  
 • This research validates that the network architecture is capable of implicitly capturing deep image prior. The inhibitory effect of shallow layers on these priors can be mitigated by introducing perturbations to the input path, which facilitates the activation of deep image prior and enables the generation of the final fused image.  
-• Extensive qualitative and quantitative experiments are conducted on multiple public infrared-visible datasets, validating the effectiveness of the proposed method in both fusion quality and downstream ta
+• Extensive qualitative and quantitative experiments are conducted on multiple public infrared-visible datasets, validating the effectiveness of the proposed method in both fusion quality and downstream task
 
 
 # 🧠 Framework📎 
